@@ -49,6 +49,7 @@ import {
 } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -623,9 +624,12 @@ export default function Home() {
               >
                 <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
                   <div className="relative overflow-hidden">
-                    <img
+                    <Image
                       src={item.image}
                       alt={item.title}
+                      height={"0"}
+                      width={"0"}
+                      sizes="100vw"
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
