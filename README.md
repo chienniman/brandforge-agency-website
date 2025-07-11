@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 BrandForge – Responsive Brand Agency Website
 
-## Getting Started
+A **modern and fully responsive Brand Agency website** built using **Next.js**, **TailwindCSS**, **shadcn/ui**, and **Framer Motion**. The website showcases the agency's services, portfolio, testimonials, and team with smooth animations and clean UI.
 
-First, run the development server:
+## 🛠 Tech Stack
+
+- **Frontend Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Component Library:** [shadcn/ui](https://ui.shadcn.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide](https://lucide.dev/)
+
+## ✨ Features
+
+- 🔥 Responsive design across all screen sizes
+- 🖼️ Beautiful Hero Section with CTA
+- 📌 Services Section with elegant layout
+- 🧩 Working Portfolio Section with Tabs
+- 🌟 Features Section highlighting agency strengths
+- 🤝 Animated Client Logos
+- 🧮 Animated Counters for:
+
+  - Projects Completed
+  - Countries Served
+  - Years of Experience
+
+- 💬 Testimonial Section with client feedback
+- 🧑‍💼 Team Section introducing key members
+- 📞 Contact Section with form and contact info
+- 🦶 Footer with essential links and branding
+- 🔄 Smooth animations using Framer Motion
+- 🌗 Light styling with branding gradient support
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/pawantech12/brandforge-agency-website.git
+cd brandforge-agency-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+# or
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Run Development Server
 
-## Learn More
+```bash
+pnpm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open `http://localhost:3000` to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📤 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is ready to be deployed on platforms like **Vercel**, **Netlify**, or **Render**.
 
-## Deploy on Vercel
+## 👨‍💻 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Pawan Kumavat** – [@pawantech12](https://github.com/pawantech12)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is Free to use.
