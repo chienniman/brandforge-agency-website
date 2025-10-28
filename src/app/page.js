@@ -70,59 +70,59 @@ export default function Home() {
   const services = [
     {
       icon: <Palette className="w-8 h-8" />,
-      title: "Branding & Identity",
+      title: "品牌與視覺設計",
       description:
-        "Complete brand identity design including logos, color palettes, and brand guidelines.",
+        "完整的品牌識別設計，包含標誌、色彩搭配與品牌指南制定。",
       features: [
-        "Logo Design",
-        "Brand Guidelines",
-        "Color Palette",
-        "Typography",
+        "標誌設計",
+        "品牌指南",
+        "色彩規劃",
+        "字體設計",
       ],
     },
     {
       icon: <Monitor className="w-8 h-8" />,
-      title: "UI/UX Design",
+      title: "UI/UX 設計",
       description:
-        "User-centered design solutions that create engaging and intuitive experiences.",
-      features: ["User Research", "Wireframing", "Prototyping", "Testing"],
+        "以使用者為中心的設計解決方案，創造吸引人且直觀的使用體驗。",
+      features: ["使用者研究", "線框設計", "原型製作", "使用性測試"],
     },
     {
       icon: <Smartphone className="w-8 h-8" />,
-      title: "Web & App Development",
+      title: "網站與應用程式開發",
       description:
-        "Full-stack development services for websites and mobile applications.",
-      features: ["React/Next.js", "Mobile Apps", "E-commerce", "CMS"],
+        "提供網站與行動應用程式的全端開發服務。",
+      features: ["React/Next.js", "行動應用", "電商平台", "內容管理系統"],
     },
     {
       icon: <Share2 className="w-8 h-8" />,
-      title: "Social Media Management",
+      title: "社群媒體管理",
       description:
-        "Strategic social media presence to boost your brand engagement.",
+        "策略性社群媒體經營，提升品牌參與度與影響力。",
       features: [
-        "Content Strategy",
-        "Post Design",
-        "Community Management",
-        "Analytics",
+        "內容策略",
+        "貼文設計",
+        "社群管理",
+        "數據分析",
       ],
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
-      title: "Digital Marketing",
+      title: "數位行銷",
       description:
-        "Data-driven marketing strategies to grow your business online.",
-      features: ["SEO", "PPC", "Email Marketing", "Analytics"],
+        "數據驅動的行銷策略，助您的事業在線上茁壯成長。",
+      features: ["SEO 優化", "廣告投放", "電子郵件行銷", "數據分析"],
     },
     {
       icon: <Package className="w-8 h-8" />,
-      title: "Packaging Design",
+      title: "包裝設計",
       description:
-        "Eye-catching packaging that makes your products stand out on shelves.",
+        "引人注目的包裝設計，讓您的產品在貨架上脫穎而出。",
       features: [
-        "Product Packaging",
-        "Label Design",
-        "3D Mockups",
-        "Print Ready",
+        "產品包裝",
+        "標籤設計",
+        "3D 模型",
+        "印刷就緒",
       ],
     },
   ];
@@ -130,70 +130,70 @@ export default function Home() {
   const portfolioItems = [
     {
       id: 1,
-      title: "TechFlow Rebrand",
+      title: "科技新創品牌重塑",
       category: "branding",
       image: "/portfolio1.jpeg",
-      description: "Complete brand identity redesign for a tech startup",
+      description: "為科技新創公司進行完整品牌識別重新設計",
     },
     {
       id: 2,
-      title: "EcoMart E-commerce",
+      title: "環保電商平台",
       category: "web",
       image: "/portfolio2.webp",
-      description: "Modern e-commerce platform with sustainable focus",
+      description: "注重永續發展的現代化電商平台",
     },
     {
       id: 3,
-      title: "Wellness App UI",
+      title: "健康管理應用程式",
       category: "mobile",
       image: "/portfolio3.jpeg",
-      description: "Intuitive wellness tracking mobile application",
+      description: "直觀易用的健康追蹤行動應用程式",
     },
     {
       id: 4,
-      title: "Artisan Coffee Packaging",
+      title: "職人咖啡包裝設計",
       category: "packaging",
       image: "/portfolio4.webp",
-      description: "Premium coffee packaging design series",
+      description: "精品咖啡包裝設計系列",
     },
     {
       id: 5,
-      title: "FinTech Dashboard",
+      title: "金融科技儀表板",
       category: "web",
       image: "/portfolio5.jpeg",
-      description: "Clean and modern financial dashboard interface",
+      description: "簡潔現代的金融儀表板介面",
     },
     {
       id: 6,
-      title: "Restaurant Brand Identity",
+      title: "餐廳品牌識別",
       category: "branding",
       image: "/portfolio6.jpeg",
-      description: "Warm and inviting restaurant brand design",
+      description: "溫馨親切的餐廳品牌設計",
     },
   ];
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, TechFlow",
+      name: "陳志明",
+      role: "執行長, 科技新創",
       content:
-        "The team delivered exactly what we needed. Our brand identity is now cohesive and professional.",
+        "團隊完美交付了我們所需要的。我們的品牌識別現在既一致又專業。",
       rating: 5,
       avatar: "/user1.jpeg",
     },
     {
-      name: "Michael Chen",
-      role: "Founder, EcoMart",
+      name: "王美玲",
+      role: "創辦人, 環保電商",
       content:
-        "Outstanding work on our e-commerce platform. The design is both beautiful and functional.",
+        "在電商平台上的傑出工作。設計既美觀又實用。",
       rating: 5,
       avatar: "/user2.webp",
     },
     {
-      name: "Emily Rodriguez",
-      role: "Marketing Director",
+      name: "李雅婷",
+      role: "行銷總監",
       content:
-        "Their creative approach and attention to detail exceeded our expectations completely.",
+        "他們的創意方法和對細節的關注完全超越了我們的期望。",
       rating: 5,
       avatar: "/user3.jpeg",
     },
@@ -201,31 +201,31 @@ export default function Home() {
 
   const team = [
     {
-      name: "Alex Rivera",
-      role: "Creative Director",
+      name: "Boris Chen",
+      role: "創意總監",
       image: "/team1.jpeg",
-      bio: "10+ years of experience in brand design and creative strategy.",
+      bio: "擁有 10 年以上品牌設計與創意策略經驗。",
       linkedin: "#",
     },
     {
-      name: "Jamie Park",
-      role: "UI/UX Designer",
+      name: "林佳穎",
+      role: "UI/UX 設計師",
       image: "/team2.webp",
-      bio: "Specializes in user-centered design and digital experiences.",
+      bio: "專精於以使用者為中心的設計與數位體驗。",
       linkedin: "#",
     },
     {
-      name: "Sam Taylor",
-      role: "Lead Developer",
+      name: "張志豪",
+      role: "首席開發者",
       image: "/team3.jpeg",
-      bio: "Full-stack developer with expertise in modern web technologies.",
+      bio: "精通現代網頁技術的全端開發者。",
       linkedin: "#",
     },
     {
-      name: "Riley Kim",
-      role: "Marketing Strategist",
+      name: "黃雅文",
+      role: "行銷策略師",
       image: "/team4.webp",
-      bio: "Data-driven marketing expert with proven track record.",
+      bio: "數據驅動的行銷專家，擁有豐富成功經驗。",
       linkedin: "#",
     },
   ];
@@ -349,7 +349,7 @@ export default function Home() {
                   <span className="text-white font-bold text-lg">B</span>
                 </div>
                 <span className="ml-2 text-xl font-bold text-gray-900">
-                  BrandForge
+                  boris.software
                 </span>
               </div>
             </div>
@@ -361,38 +361,38 @@ export default function Home() {
                   href="#home"
                   className="text-gray-600 hover:text-purple-600 px-3 py-2 text-base font-medium transition-colors"
                 >
-                  Home
+                  首頁
                 </Link>
                 <Link
                   href="#services"
                   className="text-gray-600 hover:text-purple-600 px-3 py-2 text-base font-medium transition-colors"
                 >
-                  Services
+                  服務項目
                 </Link>
                 <Link
                   href="#portfolio"
                   className="text-gray-600 hover:text-purple-600 px-3 py-2 text-base font-medium transition-colors"
                 >
-                  Portfolio
+                  作品集
                 </Link>
                 <Link
                   href="#about"
                   className="text-gray-600 hover:text-purple-600 px-3 py-2 text-base font-medium transition-colors"
                 >
-                  About
+                  關於我們
                 </Link>
                 <Link
                   href="#contact"
                   className="text-gray-600 hover:text-purple-600 px-3 py-2 text-base font-medium transition-colors"
                 >
-                  Contact
+                  聯絡我們
                 </Link>
               </div>
             </div>
 
             <div className="hidden md:block">
               <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600">
-                Get Started
+                開始合作
               </Button>
             </div>
 
@@ -429,42 +429,42 @@ export default function Home() {
               className="block text-gray-900 hover:text-purple-600 py-2 text-base font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Home
+              首頁
             </Link>
             <Link
               href="#services"
               className="block text-gray-600 hover:text-purple-600 py-2 text-base font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Services
+              服務項目
             </Link>
             <Link
               href="#portfolio"
               className="block text-gray-600 hover:text-purple-600 py-2 text-base font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Portfolio
+              作品集
             </Link>
             <Link
               href="#about"
               className="block text-gray-600 hover:text-purple-600 py-2 text-base font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              About
+              關於我們
             </Link>
             <Link
               href="#contact"
               className="block text-gray-600 hover:text-purple-600 py-2 text-base font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              聯絡我們
             </Link>
             <div className="pt-4 border-t border-gray-200">
               <Button
                 className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Get Started
+                開始合作
               </Button>
             </div>
           </div>
@@ -486,9 +486,9 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
           >
-            We Create Brands That
+            我們創造品牌
             <span className="block bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
-              Inspire & Convert
+              啟發靈感 × 促進轉換
             </span>
           </motion.h1>
 
@@ -498,8 +498,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed"
           >
-            Transform your business with stunning design, powerful branding, and
-            digital experiences that captivate your audience.
+            以令人驚豔的設計、強大的品牌力與吸引受眾的數位體驗，為您的事業注入新生命。
           </motion.p>
 
           <motion.div
@@ -512,14 +511,14 @@ export default function Home() {
               size="lg"
               className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
             >
-              Get a Free Quote
+              免費諮詢報價
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
               size="lg"
               className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
             >
-              View Our Work
+              查看我們的作品
             </Button>
           </motion.div>
         </div>
@@ -530,11 +529,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              我們的服務
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              From brand identity to digital experiences, we offer comprehensive
-              creative solutions for modern businesses.
+              從品牌識別到數位體驗，我們為現代企業提供全方位的創意解決方案。
             </p>
           </div>
 
@@ -584,11 +582,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Work
+              我們的作品
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Take a look at some of our recent projects and see how we&apos;ve
-              helped brands shine.
+              看看我們最近的專案，了解我們如何幫助品牌發光發熱。
             </p>
 
             <div className="flex flex-wrap justify-center gap-2 mb-8">
@@ -605,7 +602,10 @@ export default function Home() {
                     }`}
                   >
                     <Filter className="w-4 h-4 mr-2" />
-                    {filter === "all" ? "All Work" : filter}
+                    {filter === "all" ? "全部作品" : 
+                     filter === "branding" ? "品牌設計" :
+                     filter === "web" ? "網站開發" :
+                     filter === "mobile" ? "行動應用" : "包裝設計"}
                   </Button>
                 )
               )}
@@ -659,12 +659,10 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Why Choose BrandForge?
+                為什麼選擇 boris.software？
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                We&apos;re not just another design agency. We&apos;re your
-                creative partners, dedicated to building brands that make a
-                lasting impact.
+                我們不只是另一家設計公司。我們是您的創意夥伴，致力於打造具有持久影響力的品牌。
               </p>
 
               <div className="space-y-6">
@@ -674,10 +672,10 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Creative Excellence
+                      創意卓越
                     </h3>
                     <p className="text-gray-600">
-                      Award-winning designs that stand out in crowded markets.
+                      獲獎設計，在競爭激烈的市場中脫穎而出。
                     </p>
                   </div>
                 </div>
@@ -688,10 +686,10 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Fast Delivery
+                      快速交付
                     </h3>
                     <p className="text-gray-600">
-                      Quick turnaround times without compromising quality.
+                      快速交付時程，品質絕不妥協。
                     </p>
                   </div>
                 </div>
@@ -702,10 +700,10 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Custom Solutions
+                      客製化解決方案
                     </h3>
                     <p className="text-gray-600">
-                      Tailored strategies that fit your unique business needs.
+                      量身打造符合您獨特業務需求的策略。
                     </p>
                   </div>
                 </div>
@@ -761,7 +759,7 @@ export default function Home() {
                 <Users className="w-8 h-8 mr-2" />
                 <span className="text-4xl font-bold">{stats.clients}+</span>
               </div>
-              <p className="text-lg">Happy Clients</p>
+              <p className="text-lg">滿意客戶</p>
             </motion.div>
 
             <motion.div
@@ -776,7 +774,7 @@ export default function Home() {
                 <Award className="w-8 h-8 mr-2" />
                 <span className="text-4xl font-bold">{stats.projects}+</span>
               </div>
-              <p className="text-lg">Projects Delivered</p>
+              <p className="text-lg">完成專案</p>
             </motion.div>
 
             <motion.div
@@ -791,7 +789,7 @@ export default function Home() {
                 <Globe className="w-8 h-8 mr-2" />
                 <span className="text-4xl font-bold">{stats.countries}+</span>
               </div>
-              <p className="text-lg">Countries Served</p>
+              <p className="text-lg">服務國家</p>
             </motion.div>
 
             <motion.div
@@ -806,7 +804,7 @@ export default function Home() {
                 <Calendar className="w-8 h-8 mr-2" />
                 <span className="text-4xl font-bold">{stats.years}+</span>
               </div>
-              <p className="text-lg">Years Experience</p>
+              <p className="text-lg">年經驗</p>
             </motion.div>
           </div>
         </div>
@@ -817,11 +815,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What Our Clients Say
+              客戶怎麼說
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Don&apos;t just take our word for it. Here&apos;s what our amazing
-              clients have to say about working with us.
+              不要只聽我們說。以下是我們優秀客戶對與我們合作的真實感想。
             </p>
           </div>
 
@@ -919,11 +916,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Meet Our Team
+              認識我們的團隊
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              The creative minds behind our success. We&apos;re passionate
-              professionals who love bringing brands to life.
+              成功背後的創意大腦。我們是充滿熱忱的專業團隊，熱愛讓品牌重獲新生。
             </p>
           </div>
 
@@ -971,11 +967,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Let&apos;s Work Together
+              讓我們一起合作
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Ready to transform your brand? Get in touch and let&apos;s create
-              something amazing together.
+              準備好改造您的品牌了嗎？與我們聯繫，一起創造令人驚豔的作品。
             </p>
           </div>
 
@@ -983,10 +978,9 @@ export default function Home() {
             <div>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-2xl">Send us a message</CardTitle>
+                  <CardTitle className="text-2xl">傳送訊息給我們</CardTitle>
                   <CardDescription>
-                    Fill out the form below and we&apos;ll get back to you
-                    within 24 hours.
+                    填寫下方表單，我們將在 24 小時內回覆您。
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">
@@ -996,16 +990,16 @@ export default function Home() {
                         htmlFor="name"
                         className="block text-sm font-medium text-gray-700 mb-2"
                       >
-                        Name
+                        姓名
                       </label>
-                      <Input id="name" placeholder="Your name" />
+                      <Input id="name" placeholder="您的姓名" />
                     </div>
                     <div>
                       <label
                         htmlFor="email"
                         className="block text-sm font-medium text-gray-700 mb-2"
                       >
-                        Email
+                        電子郵件
                       </label>
                       <Input
                         id="email"
@@ -1020,25 +1014,25 @@ export default function Home() {
                       htmlFor="project-type"
                       className="block text-sm font-medium text-gray-700 mb-2"
                     >
-                      Project Type
+                      專案類型
                     </label>
                     <Select>
                       <SelectTrigger>
-                        <SelectValue placeholder="Select project type" />
+                        <SelectValue placeholder="選擇專案類型" />
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="branding">
-                          Branding & Identity
+                          品牌與視覺設計
                         </SelectItem>
-                        <SelectItem value="web">Web Development</SelectItem>
-                        <SelectItem value="mobile">Mobile App</SelectItem>
+                        <SelectItem value="web">網站開發</SelectItem>
+                        <SelectItem value="mobile">行動應用程式</SelectItem>
                         <SelectItem value="marketing">
-                          Digital Marketing
+                          數位行銷
                         </SelectItem>
                         <SelectItem value="packaging">
-                          Packaging Design
+                          包裝設計
                         </SelectItem>
-                        <SelectItem value="other">Other</SelectItem>
+                        <SelectItem value="other">其他</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -1048,21 +1042,21 @@ export default function Home() {
                       htmlFor="budget"
                       className="block text-sm font-medium text-gray-700 mb-2"
                     >
-                      Budget Range
+                      預算範圍
                     </label>
                     <Select>
                       <SelectTrigger>
-                        <SelectValue placeholder="Select budget range" />
+                        <SelectValue placeholder="選擇預算範圍" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="5k-10k">$5,000 - $10,000</SelectItem>
+                        <SelectItem value="5k-10k">NT$150,000 - NT$300,000</SelectItem>
                         <SelectItem value="10k-25k">
-                          $10,000 - $25,000
+                          NT$300,000 - NT$750,000
                         </SelectItem>
                         <SelectItem value="25k-50k">
-                          $25,000 - $50,000
+                          NT$750,000 - NT$1,500,000
                         </SelectItem>
-                        <SelectItem value="50k+">$50,000+</SelectItem>
+                        <SelectItem value="50k+">NT$1,500,000+</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -1072,17 +1066,17 @@ export default function Home() {
                       htmlFor="message"
                       className="block text-sm font-medium text-gray-700 mb-2"
                     >
-                      Message
+                      訊息內容
                     </label>
                     <Textarea
                       id="message"
-                      placeholder="Tell us about your project..."
+                      placeholder="請告訴我們您的專案需求..."
                       rows={4}
                     />
                   </div>
 
                   <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600">
-                    Send Message
+                    傳送訊息
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </CardContent>
@@ -1092,30 +1086,30 @@ export default function Home() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Get in Touch
+                  聯絡資訊
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="w-6 h-6 text-purple-600 mr-4" />
                     <div>
-                      <p className="font-medium text-gray-900">Email</p>
-                      <p className="text-gray-600">hello@brandforge.com</p>
+                      <p className="font-medium text-gray-900">電子郵件</p>
+                      <p className="text-gray-600">hello@boris.software</p>
                     </div>
                   </div>
 
                   <div className="flex items-center">
                     <Phone className="w-6 h-6 text-purple-600 mr-4" />
                     <div>
-                      <p className="font-medium text-gray-900">Phone</p>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
+                      <p className="font-medium text-gray-900">電話</p>
+                      <p className="text-gray-600">+886 912-345-678</p>
                     </div>
                   </div>
 
                   <div className="flex items-center">
                     <MapPin className="w-6 h-6 text-purple-600 mr-4" />
                     <div>
-                      <p className="font-medium text-gray-900">Location</p>
-                      <p className="text-gray-600">San Francisco, CA</p>
+                      <p className="font-medium text-gray-900">地址</p>
+                      <p className="text-gray-600">台北市, 台灣</p>
                     </div>
                   </div>
                 </div>
@@ -1123,7 +1117,7 @@ export default function Home() {
 
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Follow Us
+                  追蹤我們
                 </h3>
                 <div className="flex space-x-4">
                   <Link
@@ -1166,82 +1160,81 @@ export default function Home() {
                 <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-lg">B</span>
                 </div>
-                <span className="ml-2 text-xl font-bold">BrandForge</span>
+                <span className="ml-2 text-xl font-bold">boris.software</span>
               </div>
               <p className="text-gray-300">
-                Creating extraordinary brands and digital experiences that drive
-                results.
+                創造卓越品牌與數位體驗，帶來實際成果。
               </p>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Services</h4>
+              <h4 className="text-lg font-semibold mb-4">服務項目</h4>
               <ul className="space-y-2 text-gray-300">
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Branding & Identity
+                    品牌與視覺設計
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Web Development
+                    網站開發
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    UI/UX Design
+                    UI/UX 設計
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Digital Marketing
+                    數位行銷
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Company</h4>
+              <h4 className="text-lg font-semibold mb-4">公司資訊</h4>
               <ul className="space-y-2 text-gray-300">
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    About Us
+                    關於我們
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Our Team
+                    我們的團隊
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Careers
+                    職涯機會
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Contact
+                    聯絡我們
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Connect</h4>
+              <h4 className="text-lg font-semibold mb-4">聯絡方式</h4>
               <ul className="space-y-2 text-gray-300">
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    hello@brandforge.com
+                    hello@boris.software
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    +1 (555) 123-4567
+                    +886 912-345-678
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    San Francisco, CA
+                    台北市, 台灣
                   </Link>
                 </li>
               </ul>
@@ -1249,7 +1242,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2025 BrandForge. All rights reserved.</p>
+            <p>&copy; 2025 boris.software. 版權所有.</p>
           </div>
         </div>
       </footer>
